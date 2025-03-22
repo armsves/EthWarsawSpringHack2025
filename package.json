@@ -1,0 +1,48 @@
+{
+  "name": "nextjs-ai-lite",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^1.1.9",
+    "@goat-sdk/adapter-vercel-ai": "^0.2.7",
+    "@goat-sdk/core": "^0.4.6",
+    "@goat-sdk/plugin-erc20": "^0.2.9",
+    "@goat-sdk/wallet-evm": "^0.2.7",
+    "@goat-sdk/wallet-viem": "^0.2.7",
+    "@lifi/sdk": "^3.5.3",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-switch": "^1.1.0",
+    "ai": "^3.3.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.5",
+    "lucide-react": "^0.424.0",
+    "next": "14.2.5",
+    "openai": "^4.54.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss-animate": "^1.0.7",
+    "viem": "2.21.49",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "tsup": "^8.3.6",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
+}
