@@ -19,9 +19,9 @@ export default function AboutCard() {
           <p className="mb-3 font-semibold">Test these prompts:</p>
           <ul className="flex flex-col mb-2">
             <li>→ what is my wallet address</li>
-            <li>→ what is the &quot;USDC&quot; balance in mantle mainnet</li>
-            <li>→ what is the &quot;MNT&quot; balance in mantle mainnet</li>
-            <li>→ get route from Mantle to Mantle for &quot;MNT&quot; to &quot;USDC&quot; for 4 MNT from my wallet</li>
+            <li>→ what is my usdc balance in Ethereum Sepolia?</li>
+            <li>→ what is my usdc balance in Polygon Amoy?</li>
+            <li>→ supply 1 usdc to ethereum sepolia </li>
           </ul>
         </CardContent>
       </Card>

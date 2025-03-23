@@ -19,10 +19,13 @@
     "@radix-ui/react-label": "^2.1.0",
     "@radix-ui/react-slot": "^1.1.0",
     "@radix-ui/react-switch": "^1.1.0",
+    "@vialabs-io/contracts": "github:VIALabs-io/contracts",
+    "@vialabs-io/node-core": "github:VIALabs-io/node-core",
     "ai": "^3.3.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "dotenv": "^16.4.5",
+    "ethers": "^6.13.5",
     "lucide-react": "^0.424.0",
     "next": "14.2.5",
     "openai": "^4.54.0",
@@ -31,6 +34,7 @@
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7",
     "viem": "2.21.49",
+    "web3": "^4.16.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {
